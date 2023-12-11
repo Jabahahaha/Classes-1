@@ -13,3 +13,6 @@ class Alien:
     def teleport(self, new_x_coordinate, new_y_coordinate):
         self.x_coordinate = new_x_coordinate
         self.y_coordinate = new_y_coordinate
+
+    def collision_detection(self, other_object):
+        pass  # Placeholder
